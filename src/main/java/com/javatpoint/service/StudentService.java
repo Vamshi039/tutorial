@@ -32,4 +32,5 @@ public void delete(int id)
 {
 studentRepository.deleteById(id);
 }
+System.out.println("hello");
 }
